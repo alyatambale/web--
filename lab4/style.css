@@ -1,0 +1,55 @@
+body{
+    background-color: blue;
+}
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.����� {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.������� {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}
+
+.������ {
+    width: 200px;
+    height: 100px;
+    background:black;
+}
+.�����-����� {
+    width: 0;
+    height: 0;
+    border-top: 100px solid black;
+    border-right: 100px solid transparent;
+}
+.������-����� {
+    width: 0;
+    height: 0;
+    border-top: 100px solid black;
+    border-left: 100px solid transparent;
+}
+.�����-��� {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid black;
+    border-right: 100px solid transparent;
+}
+
+
+.������-��� {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid black;
+    border-left: 100px solid transparent;
+}
+
+
+
