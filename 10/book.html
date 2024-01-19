@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nastyle.css">
+    <style>
+       
+        .container {
+            text-align: center;
+        }
+    </style>
+    <title>Book</title>
+</head>
+<body>
+       <div> <h1 align="center">Бронирование тура</h1></div>
+       <div class="container">
+        <form action="book.php" method="post">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="tour">Выберите тур:</label>
+    <select id="tour" name="tour">
+        <option value="tour1">Бали</option>
+        <option value="tour2">Париж</option>
+        <option value="tour3">Швейцария</option>
+        <option value="tour4">Африка</option>
+    </select><br><br>
+    <label for="date">Дата</label><br>
+    <input type="date" id="date" name="date" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" required><br>
+       
+        <label for="num_people">Количество человек:</label><br>
+        <input type="number" id="number" name="number"><br>
+        <label for="comments">Дополнительные комментарии:</label><br>
+        <textarea id="comments" name="comments"></textarea><br><br>
+        <input type="submit" value="Отправить">
+      </form>
+    </div>
+ 
+</body>
+</html>
